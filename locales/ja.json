@@ -1,0 +1,66 @@
+{
+  "languageSelection": {
+    "title": "Choose your language",
+    "subtitle": "Select one language to begin the STOP-BANG quiz."
+  },
+  "app": {
+    "title": "STOP-BANG Sleep Risk Quiz"
+  },
+  "intro": {
+    "description": "Answer 8 short questions to estimate your risk for sleep apnea.",
+    "instructions": {
+      "1": "This quiz is not a diagnosis.",
+      "2": "Please answer honestly for better guidance.",
+      "3": "High-risk results require a consent step before data collection."
+    }
+  },
+  "progress": "Question {{current}} of {{total}}",
+  "questions": {
+    "1": { "text": "Do you snore loudly?", "choices": { "0": "No", "1": "Yes" } },
+    "2": { "text": "Do you often feel tired during daytime?", "choices": { "0": "No", "1": "Yes" } },
+    "3": { "text": "Has anyone observed you stop breathing during sleep?", "choices": { "0": "No", "1": "Yes" } },
+    "4": { "text": "Do you have high blood pressure?", "choices": { "0": "No", "1": "Yes" } },
+    "5": { "text": "Is your BMI over 35 kg/m²?", "choices": { "0": "No", "1": "Yes" } },
+    "6": { "text": "Are you older than 50 years?", "choices": { "0": "No", "1": "Yes" } },
+    "7": { "text": "Is your neck circumference greater than 40 cm?", "choices": { "0": "No", "1": "Yes" } },
+    "8": { "text": "Are you male?", "choices": { "0": "No", "1": "Yes" } }
+  },
+  "result": {
+    "title": "Your Risk Result",
+    "score": "Score: {{score}} / {{total}}",
+    "levels": {
+      "low": {
+        "label": "Low Risk",
+        "description": "Your answers suggest low risk. Keep healthy sleep habits and monitor symptoms."
+      },
+      "moderate": {
+        "label": "Moderate Risk",
+        "description": "Your answers suggest moderate risk. Consider discussing this with a healthcare professional."
+      },
+      "high": {
+        "label": "High Risk",
+        "description": "Your answers suggest high risk. Please review consent details for follow-up data collection."
+      }
+    }
+  },
+  "consent": {
+    "title": "Consent for Follow-up",
+    "description": "Because your result indicates high risk, we request consent to collect your follow-up contact data.",
+    "privacy": "Your data will be used only for care coordination and handled according to our privacy policy.",
+    "checkbox": "I understand the privacy explanation and agree to provide my data.",
+    "languageRecord": "Consent language code: {{code}}"
+  },
+  "completion": {
+    "title": "Thank You",
+    "message": "Your quiz flow is complete. Please seek clinical advice if symptoms continue."
+  },
+  "buttons": {
+    "start": "Start Quiz",
+    "continue": "Continue",
+    "submitConsent": "Submit Consent",
+    "restart": "Restart"
+  },
+  "errors": {
+    "consentRequired": "You must check the consent box to continue."
+  }
+}
