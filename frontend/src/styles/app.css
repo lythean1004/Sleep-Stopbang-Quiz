@@ -1,0 +1,90 @@
+:root {
+  font-family: 'Pretendard', 'Noto Sans KR', sans-serif;
+  color: #e4ebff;
+  background: radial-gradient(circle at top, #1e2a52, #080d1e 65%);
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; }
+.app {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 20px 16px 44px;
+}
+.hero h1 { margin-bottom: 8px; }
+.hero p { margin-top: 0; color: #bbcaef; }
+.progress { color: #b7c3e8; }
+
+.card {
+  background: rgba(17, 25, 50, 0.85);
+  border: 1px solid #3c4f80;
+  border-radius: 14px;
+  padding: 16px;
+  margin-top: 14px;
+}
+.question { font-size: 1.1rem; }
+.button-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+button {
+  border: 1px solid #5d76bb;
+  background: #22315f;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+button.active,
+button:hover { background: #4566c1; }
+button:disabled { opacity: 0.4; cursor: not-allowed; }
+
+.slider-wrap input { width: 100%; }
+.value-pill {
+  margin-top: 8px;
+  display: inline-block;
+  background: #2a3d72;
+  padding: 6px 10px;
+  border-radius: 999px;
+}
+
+.actions { display: flex; gap: 8px; margin-top: 10px; }
+.actions button,
+.restart,
+.submit-btn { width: 100%; }
+
+.tabs { display: flex; gap: 8px; }
+.tabs button { flex: 1; }
+
+.consent-form {
+  display: grid;
+  gap: 10px;
+  margin-top: 12px;
+}
+.consent-form label {
+  display: grid;
+  gap: 5px;
+  font-size: 0.95rem;
+}
+.consent-form input[type='text'],
+.consent-form input[type='tel'] {
+  border-radius: 8px;
+  border: 1px solid #5771b3;
+  padding: 10px;
+  background: #0f1834;
+  color: #fff;
+}
+.checkbox-row {
+  display: flex !important;
+  gap: 8px;
+  align-items: center;
+}
+.error { color: #ff9f9f; }
+.success { color: #9dffb3; }
+.result-msg,
+.risk-msg { color: #d0daf6; }
+.policy-list { padding-left: 18px; line-height: 1.6; }
+
+@media (max-width: 480px) {
+  .button-grid { grid-template-columns: 1fr; }
+}
