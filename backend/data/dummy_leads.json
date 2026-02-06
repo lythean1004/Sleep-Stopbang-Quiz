@@ -1,0 +1,20 @@
+[
+  {
+    "name": "홍길동",
+    "phone": "010-9999-1234",
+    "city": "서울",
+    "score": 6,
+    "riskLevel": "high",
+    "requiredConsent": true,
+    "marketingConsent": false
+  },
+  {
+    "name": "김영희",
+    "phone": "010-8888-5678",
+    "city": "부산",
+    "score": 7,
+    "riskLevel": "high",
+    "requiredConsent": true,
+    "marketingConsent": true
+  }
+]
